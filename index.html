@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AS1-Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="D:\Learning Stuff\Engineering Work\Third Year Work\Sem 2\Web Technology\WTL\CSS\style.css">
+	
+	
+</head>
+<body>
+		
+		<header>
+			<h1>ACM Registrations</h1>
+		</header>
+		
+		
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>Gallary</li>
+			</ul>
+		</nav>
+
+		<article>	
+			<form>
+				<label>Name:</label>
+				<input type="text" placeholder="Enter Full Name" id="nm"><br>
+
+				<label for="address">Address:</label>
+				<textarea id="address" rows="5px"  placeholder="Enter Permanent Address"></textarea><br>
+
+				<label>Gender:</label>
+				<input type="radio" id="gender" name="gender" value="Male">Male
+				<input type="radio" id="gender" name="gender" value="Female">Female<br>
+
+				<label>Birth Date:</label>
+				<input id="bdate" type="text" placeholder="DD/MM/YYYY"><br>
+
+				<label>Contact:</label>
+				<input id="contact" type="text" placeholder="Enter Contact No."><br>
+
+				<label>Department:</label>
+				<select id="Department">  
+					<option value="Comp">Computer</option>>
+					<option value="Civil">Civil</option>>
+					<option value="IT">IT</option>>
+					<option value="ENTC">Electronics and Telecommunication</option>>
+					<option value="Mech">Meachanical</option>>
+				</select><br>
+
+				<button type="submit" onClick="validate(this.form)">Submit</button>
+			</form>
+		</article>
+
+		<footer>
+			Copyright &copy;2019 
+		</footer>
+		<script src="D:\Learning Stuff\Engineering Work\Third Year Work\Sem 2\Web Technology\WTL\JS\myScript.js"></script>
+</body>
+</html>
